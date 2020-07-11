@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <title>Stopwatch</title>
+</head>
+<body>
+
+
+    <video autoplay muted loop id="myVideo">
+        <source src="Network - 12716.mp4" type="video/mp4">
+      </video>  
+    <div class="main">
+        <h1 class="heading">Stopwatch</h1>
+
+        <div class="circle">
+            <h1 id="min" style="margin-top: 50px; ">0</h1>
+            <h1 id="sec" style="margin-top: 50px; ">0</h1>
+            <h1 id="msec" style="margin-top: 50px; ">0</h1>
+        </div>
+
+        <div class="button " >
+            <button style="outline: none;" class="reset" onclick="reset()">
+                <p>reset</p>
+            </button>
+
+            <button style="outline: none;" class="start" onclick="start()">
+                <p style="font-size: 30px;">start</p>
+            </button>
+
+            <button style="outline: none;" class="pause" onclick="stop()">
+                <p>pause</p>
+            </button>
+
+        </div>
+
+
+    
+
+
+
+
+    </div>
+
+
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
