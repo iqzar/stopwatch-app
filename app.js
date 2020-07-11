@@ -21,6 +21,7 @@ function timer(){
 }
 
 function start(){
+    clearInterval(interval);
     interval=setInterval(timer,10);
 
 }
